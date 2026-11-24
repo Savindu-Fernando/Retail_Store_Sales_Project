@@ -53,3 +53,14 @@ rsconnect/
 src/*.o
 src/*.so
 src/*.dll
+
+# Additional project exclusions
+.Rproj.user/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Original raw datasets are not uploaded by default
+data/raw/*
+!data/raw/.gitkeep
